@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Riyan Daris - Interactive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===== HEADER / NAVBAR ===== -->
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="#profile">MRD</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#about-anchor">About Me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+        <!-- ----- Profile Section ----- -->
+        <section id="profile" class="profile-section">
+            <div class="container">
+                <img src="profile-picture.jpg" alt="Muhammad Riyan Daris" class="profile-image">
+                <h2 class="animate-on-load-1">Muhammad Riyan Daris</h2>
+                <p class="tagline animate-on-load-2">AI Developer | Global Market Analyst | Investor</p>
+                <p class="bio animate-on-load-3">
+                    I am a passionate Computer Science undergraduate with a deep fascination for the intersection of technology and finance. My goal is to leverage Artificial Intelligence to solve real-world challenges while navigating the dynamic world of global markets as an active investor.
+                </p>
+            </div>
+            <div class="wave-container">
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave" d="M-160 44c30 0, 58-18, 88-18s58 18, 88 18, 58-18, 88-18, 58 18, 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0" />
+                        <use xlink:href="#gentle-wave" x="48" y="3" />
+                        <use xlink:href="#gentle-wave" x="48" y="5" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" />
+                    </g>
+                </svg>
+            </div>
+            <!-- PERUBAHAN DI SINI: Jangkar dipindahkan ke dalam section profil -->
+            <div id="about-anchor"></div>
+        </section>
+
+        <div class="container">
+            <!-- ----- About Section ----- -->
+            <section id="about">
+                <h3>Educational Background</h3>
+                <p>
+                    My academic journey began at SMA 1 Kotabumi, which provided me with a solid foundation for my current pursuit of a Bachelor's degree in Computer Science at the Institute Technology of Sumatera (ITERA). This program is sharpening my analytical skills and providing me with robust knowledge in software engineering, data structures, and the theoretical principles that underpin modern computing and AI.
+                </p>
+            </section>
+
+            <!-- ----- Experience Section ----- -->
+            <section id="experience">
+                <h3>Experience & Activities</h3>
+                <ul class="experience-list">
+                    <li>
+                        <img src="nvidia-color.png" alt="NVIDIA Logo" class="experience-logo">
+                        <div class="experience-content">
+                            <h5>NVIDIA Deep Learning Institute</h5>
+                            <p>Completed an intensive course on Artificial Intelligence, gaining hands-on experience with industry-standard frameworks.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="gdg-pict.png" alt="Google Developers Logo" class="experience-logo">
+                        <div class="experience-content">
+                            <h5>Google Developer Group (GDG) ITS</h5>
+                            <p>As an active member, I collaborate with peers on AI-focused projects, staying at the forefront of technological advancements.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="btc-logo.webp" alt="Bitcoin Logo" class="experience-logo">
+                        <div class="experience-content">
+                            <h5>Market Investor</h5>
+                            <p>Since late 2023, I have been an active investor in high-volatility assets like Bitcoin and tech companies like MicroStrategy.</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- ----- Skills Section ----- -->
+            <section id="skills">
+                <h3>Core Competencies</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h4>AI Development</h4>
+                        <p>I specialize in designing, developing, and implementing intelligent systems. My focus is on creating practical AI solutions that can automate processes and solve complex, real-world problems efficiently.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h4>Global Market Analysis</h4>
+                        <p>My analytical skills extend to financial markets, where I interpret macroeconomic trends and company-specific data to formulate long-term investment strategies, particularly in the tech and crypto sectors.</p>
+                    </div>
+                     <div class="skill-card">
+                        <h4>Investor</h4>
+                        <p>Actively investing in global markets with a focus on high-growth assets. This involves continuous market research, portfolio management, and a disciplined approach to risk.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <p>Connect with me on <a href="https://www.linkedin.com/in/muhammad-riyan-daris" target="_blank">LinkedIn</a> or check out my projects on <a href="https://github.com/yandariss" target="_blank">GitHub</a>.</p>
+            <p>&copy; 2025 Muhammad Riyan Daris</p>
+        </div>
+    </footer>
+
+</body>
+</html>
